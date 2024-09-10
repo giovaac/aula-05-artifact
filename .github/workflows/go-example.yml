@@ -15,7 +15,7 @@ jobs:
       FILE_NAME: hello-server
     steps:
 
-    - name: Checkout Go code
+    - name: Checkout Go Code
       uses: actions/checkout@v2
 
     - name: Build ${{ env.FILE_NAME }} for ubuntu-latest
